@@ -13,9 +13,17 @@
 		D9DA9E2F1EA4E7AB00162A52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9DA9E2D1EA4E7AB00162A52 /* Main.storyboard */; };
 		D9DA9E311EA4E7AB00162A52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9DA9E301EA4E7AB00162A52 /* Assets.xcassets */; };
 		D9DA9E341EA4E7AB00162A52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9DA9E321EA4E7AB00162A52 /* LaunchScreen.storyboard */; };
+		D9DA9E3D1EA4E8F700162A52 /* UIImageView+SDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DA9E3C1EA4E8F700162A52 /* UIImageView+SDWebImage.m */; };
+		D9DA9E431EA511F100162A52 /* GXFBaseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DA9E421EA511F100162A52 /* GXFBaseHandler.m */; };
+		D9DA9E461EA5135E00162A52 /* NSString+CachePath.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DA9E451EA5135E00162A52 /* NSString+CachePath.m */; };
+		D9DA9E491EA5151100162A52 /* UIColor+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DA9E481EA5151100162A52 /* UIColor+extension.m */; };
+		FD0668BB87EF097493DE68FC /* libPods-061-- GXFApplication.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D951001D6DAC44FFB33B9A90 /* libPods-061-- GXFApplication.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F67E5930E3FDFEBF66447DE /* Pods-061-- GXFApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-061-- GXFApplication.debug.xcconfig"; path = "Pods/Target Support Files/Pods-061-- GXFApplication/Pods-061-- GXFApplication.debug.xcconfig"; sourceTree = "<group>"; };
+		773707F7B87CBDCA7F7BE315 /* Pods-061-- GXFApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-061-- GXFApplication.release.xcconfig"; path = "Pods/Target Support Files/Pods-061-- GXFApplication/Pods-061-- GXFApplication.release.xcconfig"; sourceTree = "<group>"; };
+		D951001D6DAC44FFB33B9A90 /* libPods-061-- GXFApplication.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-061-- GXFApplication.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9DA9E211EA4E7AB00162A52 /* 061-- GXFApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "061-- GXFApplication.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9DA9E251EA4E7AB00162A52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D9DA9E271EA4E7AB00162A52 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +34,14 @@
 		D9DA9E301EA4E7AB00162A52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9DA9E331EA4E7AB00162A52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9DA9E351EA4E7AB00162A52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9DA9E3B1EA4E8F700162A52 /* UIImageView+SDWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SDWebImage.h"; sourceTree = "<group>"; };
+		D9DA9E3C1EA4E8F700162A52 /* UIImageView+SDWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SDWebImage.m"; sourceTree = "<group>"; };
+		D9DA9E411EA511F100162A52 /* GXFBaseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXFBaseHandler.h; sourceTree = "<group>"; };
+		D9DA9E421EA511F100162A52 /* GXFBaseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXFBaseHandler.m; sourceTree = "<group>"; };
+		D9DA9E441EA5135E00162A52 /* NSString+CachePath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CachePath.h"; sourceTree = "<group>"; };
+		D9DA9E451EA5135E00162A52 /* NSString+CachePath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CachePath.m"; sourceTree = "<group>"; };
+		D9DA9E471EA5151100162A52 /* UIColor+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+extension.h"; sourceTree = "<group>"; };
+		D9DA9E481EA5151100162A52 /* UIColor+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +49,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD0668BB87EF097493DE68FC /* libPods-061-- GXFApplication.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21921CB1032D3C7FB221553B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F67E5930E3FDFEBF66447DE /* Pods-061-- GXFApplication.debug.xcconfig */,
+				773707F7B87CBDCA7F7BE315 /* Pods-061-- GXFApplication.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B6C1585971F31E123140E7AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D951001D6DAC44FFB33B9A90 /* libPods-061-- GXFApplication.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D9DA9E181EA4E7AB00162A52 = {
 			isa = PBXGroup;
 			children = (
 				D9DA9E231EA4E7AB00162A52 /* 061-- GXFApplication */,
 				D9DA9E221EA4E7AB00162A52 /* Products */,
+				21921CB1032D3C7FB221553B /* Pods */,
+				B6C1585971F31E123140E7AB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +98,14 @@
 				D9DA9E281EA4E7AB00162A52 /* AppDelegate.m */,
 				D9DA9E2A1EA4E7AB00162A52 /* ViewController.h */,
 				D9DA9E2B1EA4E7AB00162A52 /* ViewController.m */,
+				D9DA9E3B1EA4E8F700162A52 /* UIImageView+SDWebImage.h */,
+				D9DA9E3C1EA4E8F700162A52 /* UIImageView+SDWebImage.m */,
+				D9DA9E441EA5135E00162A52 /* NSString+CachePath.h */,
+				D9DA9E451EA5135E00162A52 /* NSString+CachePath.m */,
+				D9DA9E471EA5151100162A52 /* UIColor+extension.h */,
+				D9DA9E481EA5151100162A52 /* UIColor+extension.m */,
+				D9DA9E411EA511F100162A52 /* GXFBaseHandler.h */,
+				D9DA9E421EA511F100162A52 /* GXFBaseHandler.m */,
 				D9DA9E2D1EA4E7AB00162A52 /* Main.storyboard */,
 				D9DA9E301EA4E7AB00162A52 /* Assets.xcassets */,
 				D9DA9E321EA4E7AB00162A52 /* LaunchScreen.storyboard */,
@@ -86,9 +130,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D9DA9E381EA4E7AB00162A52 /* Build configuration list for PBXNativeTarget "061-- GXFApplication" */;
 			buildPhases = (
+				CEFFC24A559B0727772F832F /* [CP] Check Pods Manifest.lock */,
 				D9DA9E1D1EA4E7AB00162A52 /* Sources */,
 				D9DA9E1E1EA4E7AB00162A52 /* Frameworks */,
 				D9DA9E1F1EA4E7AB00162A52 /* Resources */,
+				107B936256424E17C74C4E50 /* [CP] Embed Pods Frameworks */,
+				3D85D476CFE8BFCBB3E88298 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -145,13 +192,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		107B936256424E17C74C4E50 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-061-- GXFApplication/Pods-061-- GXFApplication-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D85D476CFE8BFCBB3E88298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-061-- GXFApplication/Pods-061-- GXFApplication-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEFFC24A559B0727772F832F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D9DA9E1D1EA4E7AB00162A52 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9DA9E491EA5151100162A52 /* UIColor+extension.m in Sources */,
+				D9DA9E431EA511F100162A52 /* GXFBaseHandler.m in Sources */,
 				D9DA9E2C1EA4E7AB00162A52 /* ViewController.m in Sources */,
 				D9DA9E291EA4E7AB00162A52 /* AppDelegate.m in Sources */,
+				D9DA9E461EA5135E00162A52 /* NSString+CachePath.m in Sources */,
+				D9DA9E3D1EA4E8F700162A52 /* UIImageView+SDWebImage.m in Sources */,
 				D9DA9E261EA4E7AB00162A52 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +367,7 @@
 		};
 		D9DA9E391EA4E7AB00162A52 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F67E5930E3FDFEBF66447DE /* Pods-061-- GXFApplication.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "061-- GXFApplication/Info.plist";
@@ -279,6 +379,7 @@
 		};
 		D9DA9E3A1EA4E7AB00162A52 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 773707F7B87CBDCA7F7BE315 /* Pods-061-- GXFApplication.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "061-- GXFApplication/Info.plist";
@@ -307,6 +408,7 @@
 				D9DA9E3A1EA4E7AB00162A52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "UIImageView+SDWebImage.h"
+#import "UIColor+extension.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIImageView *iconView;
 
 @end
 
@@ -17,6 +20,23 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+//    self.view.backgroundColor = [UIColor randomColor];
+    
+//    [self.iconView downLoadImage:@"http://www.who.int/entity/campaigns/immunization-week/2015/large-web-banner.jpg?ua=1" placeHolder:@""];
+    
+    [self.iconView downLoadImage:@"http://www.who.int/entity/campaigns/immunization-week/2015/large-web-banner.jpg?ua=1" placeHolder:@"" success:^(UIImage *image) {
+        
+        // 图片持久化处理
+        
+        
+    } failed:^(NSError *error) {
+        
+        
+    } progress:^(CGFloat progress) {
+        
+        NSLog(@"%f", progress);
+    }];
 }
 
 
