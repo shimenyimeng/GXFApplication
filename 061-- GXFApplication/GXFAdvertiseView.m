@@ -40,6 +40,9 @@ static NSInteger const showtime = 3;
         // 添加控件
         [self addSubview:self.bgImageView];
         [self addSubview:self.timeLabel];
+        self.timeLabel.userInteractionEnabled = YES;
+        UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(timeLabelClick:)];
+        [self.timeLabel addGestureRecognizer:tap];
         
         self.frame = [UIScreen mainScreen].bounds;
         
@@ -51,6 +54,11 @@ static NSInteger const showtime = 3;
     }
     
     return self;
+}
+
+- (void)timeLabelClick:(UILabel *)timeLabel {
+    
+    [self dismiss];
 }
 
 - (void)loadAd {
@@ -109,7 +117,7 @@ static NSInteger const showtime = 3;
             
             dispatch_async(dispatch_get_main_queue(), ^{
                 
-                self.timeLabel.text = [NSString stringWithFormat:@"%@%zd%@", @"剩余", time, @"秒"];
+                self.timeLabel.text = [NSString stringWithFormat:@"%@%zd", @"跳过广告 ", time];
             });
             
             time--;
