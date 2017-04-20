@@ -9,5 +9,6 @@ target '061-- GXFApplication' do
 
 pod 'SDWebImage'
 pod 'AFNetworking'
+pod 'Masonry'
 
 end

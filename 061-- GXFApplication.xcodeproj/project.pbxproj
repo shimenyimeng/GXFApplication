@@ -17,6 +17,8 @@
 		D9DA9E431EA511F100162A52 /* GXFBaseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DA9E421EA511F100162A52 /* GXFBaseHandler.m */; };
 		D9DA9E461EA5135E00162A52 /* NSString+CachePath.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DA9E451EA5135E00162A52 /* NSString+CachePath.m */; };
 		D9DA9E491EA5151100162A52 /* UIColor+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DA9E481EA5151100162A52 /* UIColor+extension.m */; };
+		D9DA9E4C1EA5E5BE00162A52 /* GXFAdvertiseView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DA9E4B1EA5E5BE00162A52 /* GXFAdvertiseView.m */; };
+		D9DA9E521EA6023A00162A52 /* GXFHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DA9E511EA6023A00162A52 /* GXFHttpTool.m */; };
 		FD0668BB87EF097493DE68FC /* libPods-061-- GXFApplication.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D951001D6DAC44FFB33B9A90 /* libPods-061-- GXFApplication.a */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +44,10 @@
 		D9DA9E451EA5135E00162A52 /* NSString+CachePath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CachePath.m"; sourceTree = "<group>"; };
 		D9DA9E471EA5151100162A52 /* UIColor+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+extension.h"; sourceTree = "<group>"; };
 		D9DA9E481EA5151100162A52 /* UIColor+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+extension.m"; sourceTree = "<group>"; };
+		D9DA9E4A1EA5E5BE00162A52 /* GXFAdvertiseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXFAdvertiseView.h; sourceTree = "<group>"; };
+		D9DA9E4B1EA5E5BE00162A52 /* GXFAdvertiseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXFAdvertiseView.m; sourceTree = "<group>"; };
+		D9DA9E501EA6023A00162A52 /* GXFHttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXFHttpTool.h; sourceTree = "<group>"; };
+		D9DA9E511EA6023A00162A52 /* GXFHttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXFHttpTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +106,16 @@
 				D9DA9E2B1EA4E7AB00162A52 /* ViewController.m */,
 				D9DA9E3B1EA4E8F700162A52 /* UIImageView+SDWebImage.h */,
 				D9DA9E3C1EA4E8F700162A52 /* UIImageView+SDWebImage.m */,
+				D9DA9E501EA6023A00162A52 /* GXFHttpTool.h */,
+				D9DA9E511EA6023A00162A52 /* GXFHttpTool.m */,
 				D9DA9E441EA5135E00162A52 /* NSString+CachePath.h */,
 				D9DA9E451EA5135E00162A52 /* NSString+CachePath.m */,
 				D9DA9E471EA5151100162A52 /* UIColor+extension.h */,
 				D9DA9E481EA5151100162A52 /* UIColor+extension.m */,
 				D9DA9E411EA511F100162A52 /* GXFBaseHandler.h */,
 				D9DA9E421EA511F100162A52 /* GXFBaseHandler.m */,
+				D9DA9E4A1EA5E5BE00162A52 /* GXFAdvertiseView.h */,
+				D9DA9E4B1EA5E5BE00162A52 /* GXFAdvertiseView.m */,
 				D9DA9E2D1EA4E7AB00162A52 /* Main.storyboard */,
 				D9DA9E301EA4E7AB00162A52 /* Assets.xcassets */,
 				D9DA9E321EA4E7AB00162A52 /* LaunchScreen.storyboard */,
@@ -249,7 +259,9 @@
 				D9DA9E431EA511F100162A52 /* GXFBaseHandler.m in Sources */,
 				D9DA9E2C1EA4E7AB00162A52 /* ViewController.m in Sources */,
 				D9DA9E291EA4E7AB00162A52 /* AppDelegate.m in Sources */,
+				D9DA9E4C1EA5E5BE00162A52 /* GXFAdvertiseView.m in Sources */,
 				D9DA9E461EA5135E00162A52 /* NSString+CachePath.m in Sources */,
+				D9DA9E521EA6023A00162A52 /* GXFHttpTool.m in Sources */,
 				D9DA9E3D1EA4E8F700162A52 /* UIImageView+SDWebImage.m in Sources */,
 				D9DA9E261EA4E7AB00162A52 /* main.m in Sources */,
 			);

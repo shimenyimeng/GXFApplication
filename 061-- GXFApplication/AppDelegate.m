@@ -7,8 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "GXFAdvertiseView.h"
 
 @interface AppDelegate ()
+
 
 @end
 
@@ -17,6 +19,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [self.window makeKeyAndVisible];
+    
+    GXFAdvertiseView *adView = [[GXFAdvertiseView alloc] init];
+    
+    [self.window addSubview:adView];
+    
     return YES;
 }
 
